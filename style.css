@@ -161,8 +161,69 @@ input[type=submit]:hover {
 #contact h2{
   text-align: center;
 }
-.footer{
-  margin-left: 40px;
-  background-color: #45a0a0;
-  color: #45a0a0;
+footer {
+  background-color: #333;
+  color:#45a0a0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col-md-4 {
+  flex-basis: 33.33%;
+  margin: 20px;
+}
+
+footer h5 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color:#45a0a0;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.social-icons li {
+  margin-right: 20px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: #fff;
+}
+
+.social-icons i:hover {
+  color: #ccc;
 }
