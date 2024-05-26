@@ -116,6 +116,7 @@ h3{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 300px;
+  
   }
   .projects-card h3{
     font-size: 20px;
@@ -127,7 +128,7 @@ h3{
     
   }
 
- * {box-sizing: border-box;}
+  // * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -163,10 +164,13 @@ input[type=submit]:hover {
   text-align: center;
 }
 footer {
-  background-color: #333;
+  background-color:#f2f2f2;
   color:#45a0a0;
-  padding: 20px 0;
+  padding: 20px;
   text-align: center;
+  padding-left: 70px;
+  padding-right: 400px;
+  
 }
 
 footer .container {
